@@ -1,8 +1,8 @@
 # Week 1 Homework
 
-In this homework we'll prepare the environment 
-and practice with Docker and SQL
+Homework 1 for the data engineering zoomcamp by: 
 
+* [https://datatalks.club](https://datatalks.club)
 
 ## Question 1. Knowing docker tags
 
@@ -20,10 +20,21 @@ Which tag has the following text? - *Write the image ID to the file*
 - `--idfile string`
 
 ## Solution 
-Step 1. Install docker:
-
-Step 2. Run the comant docker build --help
+Step 1. Install docker(comands for ubuntu):
+- sudo apt update
+- sudo apt install apt-transport-https ca-certificates curl software-properties-common
+- curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+- echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+- sudo apt update
+- apt-cache policy docker-ce
+- sudo apt install docker-ce
+- sudo systemctl status docker
+- sudo systemctl enable docker
+- sudo usermod -aG granados
+- docker version 
+Step 2. Run the comand docker build --help
 output:
+<img src="images_week_1/image1.png" />
 
 Answer: -iidfile string
 
