@@ -21,6 +21,7 @@ Which tag has the following text? - *Write the image ID to the file*
 
 ## Solution 
 Step 1. Install docker(comands for ubuntu):
+
 - sudo apt update
 - sudo apt install apt-transport-https ca-certificates curl software-properties-common
 - curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -53,6 +54,19 @@ How many python packages/modules are installed?
 - 6
 - 3
 - 7
+
+## Solution 
+Step 1. Create dockerfile
+<img src="images_week_1/create_dockerfile.png" />
+Step 2. Set dockerfile base on python 3.9
+<img src="images_week_1/create_image.png" />
+Step 3. Look if the image has been created
+<img src="images_week_1/see_docker_images.png" />
+Step 4. Run docker with the python:3.9 image in an interactive mode and the entrypoint of bash
+<img src="images_week_1/build_image.png" />
+step 5. Check how many python packages/modules are installed?
+<img src="images_week_1/answer.png" />
+
 
 # Prepare Postgres
 
