@@ -57,14 +57,23 @@ How many python packages/modules are installed?
 
 ## Solution 
 Step 1. Create dockerfile
+
 <img src="images_week_1/create_dockerfile.png" />
+
 Step 2. Set dockerfile base on python 3.9
+
 <img src="images_week_1/create_image.png" />
+
 Step 3. Look if the image has been created
+
 <img src="images_week_1/see_docker_images.png" />
+
 Step 4. Run docker with the python:3.9 image in an interactive mode and the entrypoint of bash
+
 <img src="images_week_1/build_image.png" />
+
 step 5. Check how many python packages/modules are installed?
+
 <img src="images_week_1/answer.png" />
 
 
