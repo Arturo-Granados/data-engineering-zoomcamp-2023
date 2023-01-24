@@ -32,11 +32,12 @@ Step 1. Install docker(comands for ubuntu):
 - sudo systemctl enable docker
 - sudo usermod -aG granados
 - docker version 
+
 Step 2. Run the comand docker build --help
 output:
 <img src="images_week_1/image1.png" />
 
-Answer: -iidfile string
+Answer: '-iidfile string'
 
 
 
