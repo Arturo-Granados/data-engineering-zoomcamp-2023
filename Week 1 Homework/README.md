@@ -1,4 +1,5 @@
 # Week 1 Homework
+<img src="images_week_1/portada.png" />
 
 Homework 1 for the data engineering zoomcamp by: 
 
