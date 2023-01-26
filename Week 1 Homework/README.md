@@ -110,6 +110,12 @@ Remember that `lpep_pickup_datetime` and `lpep_dropoff_datetime` columns are in 
 ## Solution
 Run the following query:
 
+```
+Select count(*) from green_taxi_trips  
+where date(lpep_pickup_datetime) = '2019-01-15'
+and date (lpep_dropoff_datetime) = '2019-01-15';
+```
+
 Answer: 20530
 
 ## Question 4. Largest trip for each day
@@ -125,6 +131,11 @@ Use the pick up time for your calculations.
 ## Solution
 Run the following query:
 
+``
+Select lpep_pickup_datetime,trip_distance from green_taxi_trips
+order by 2 desc;
+``
+
 Answer: 2019-01-15
 
 ## Question 5. The number of passengers
@@ -138,6 +149,14 @@ In 2019-01-01 how many trips had 2 and 3 passengers?
 
 ## Solution
 Run the following query:
+``
+SELECT
+    SUM(CASE WHEN passenger_count = 2 THEN 1 ELSE 0 END) as "trips_with_2_passengers",
+    SUM(CASE WHEN passenger_count = 3 THEN 1 ELSE 0 END) as "trips_with_3_passengers"
+from green_taxi_trips
+where date(lpep_pickup_datetime) = '2019-01-01';
+``
+
 
 Answer: 2: 1282 ; 3: 254
 
