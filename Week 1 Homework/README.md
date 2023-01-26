@@ -149,6 +149,7 @@ In 2019-01-01 how many trips had 2 and 3 passengers?
 
 ## Solution
 Run the following query:
+
 ``
 SELECT
     SUM(CASE WHEN passenger_count = 2 THEN 1 ELSE 0 END) as "trips_with_2_passengers",
