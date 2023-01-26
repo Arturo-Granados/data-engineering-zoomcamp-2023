@@ -139,7 +139,7 @@ In 2019-01-01 how many trips had 2 and 3 passengers?
 ## Solution
 Run the following query:
 
-Answer: 1282 trips with 2 passengers & 254 with 3 passengers.
+Answer: 2: 1282 ; 3: 254
 
 ## Question 6. Largest tip
 
