@@ -39,7 +39,7 @@ Step 2. Run the comand docker build --help
 output:
 <img src="images_week_1/image1.png" />
 
-Answer: '-iidfile string'
+Answer: -iidfile string
 
 
 
@@ -77,6 +77,8 @@ step 5. Check how many python packages/modules are installed?
 
 <img src="images_week_1/answer.png" />
 
+Answer: 3
+
 
 # Prepare Postgres
 
@@ -105,6 +107,11 @@ Remember that `lpep_pickup_datetime` and `lpep_dropoff_datetime` columns are in 
 - 17630
 - 21090
 
+## Solution
+Run the following query:
+
+Answer: 20530
+
 ## Question 4. Largest trip for each day
 
 Which was the day with the largest trip distance
@@ -115,6 +122,11 @@ Use the pick up time for your calculations.
 - 2019-01-15
 - 2019-01-10
 
+## Solution
+Run the following query:
+
+Answer: 2019-01-15
+
 ## Question 5. The number of passengers
 
 In 2019-01-01 how many trips had 2 and 3 passengers?
@@ -124,6 +136,10 @@ In 2019-01-01 how many trips had 2 and 3 passengers?
 - 2: 1282 ; 3: 254
 - 2: 1282 ; 3: 274
 
+## Solution
+Run the following query:
+
+Answer: 1282 trips with 2 passengers & 254 with 3 passengers.
 
 ## Question 6. Largest tip
 
@@ -137,15 +153,7 @@ Note: it's not a typo, it's `tip` , not `trip`
 - South Ozone Park
 - Long Island City/Queens Plaza
 
-
-## Submitting the solutions
-
-* Form for submitting: [form](https://forms.gle/EjphSkR1b3nsdojv7)
-* You can submit your homework multiple times. In this case, only the last submission will be used. 
-
-Deadline: 26 January (Thursday), 22:00 CET
-
-
 ## Solution
+Run the following query:
 
-We will publish the solution here
+Answer:  Long Island City/Queens Plaza
