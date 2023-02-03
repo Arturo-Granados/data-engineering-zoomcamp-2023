@@ -4,11 +4,11 @@ services:
     environment:
       - POSTGRES_USER=root
       - POSTGRES_PASSWORD=root
-      - POSTGRES_DB=green_ny_taxi
+      - POSTGRES_DB=ny_taxi
     volumes:
       - "./ny_taxi_postgres_data:/var/lib/postgresql/data:rw"
     ports:
-      - "5433:5432"
+      - "5432:5432"
   pgadmin:
     image: dpage/pgadmin4
     environment:
