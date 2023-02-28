@@ -39,7 +39,7 @@ important this set up.
 
 ## Step 4. Configure VM and set up local    
 
-    install with the command:
+    install anacoda navegator with the command:
 
     wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
 
@@ -65,6 +65,62 @@ important this set up.
             2. HostName: external IP (this ip chages every time that the vm is restarted)
             3. User: The name of the user in the ssh keys
             4. IdentityFile: The path where is the gcp.pub file
+    
+    Check that the file has been created correctly
+
+    Log in into anaconda with:
+        less .bashrc
+    
+    close the terminal and open a new terminal and put the following comand:
+
+        ssh <vm name>
+
+    Install docker:
+        sudo apt-get install docker.io
+        sudo apt-get update
+
+    Connect vs code with the vm
+        intall the extention remote ssh
+        clic in the ssh remote, select connect hosts 
+        select the host, select the os and enter your ssh file password
+
+    Install docker:
+        sudo apt-get install docker.io
+
+    note that if you try to run docker run hello-world, you will have problems 
+
+    run docker command without sudo: https://github.com/sindresorhus/guides/blob/main/docker-without-sudo.md
+    
+
+    Install docker compose
+        create a new dir in the root path
+            mkdir bin
+        change to bin dir
+            cd bin
+        download docker compose 
+            wget https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-linux-x86_64 -O docker-compose
+
+        or the lasted version: https://github.com/docker/compose
+
+        Execute docker-compose
+            chmod +x docker-compose
+        
+    To do visible docker compose from every directory:
+        go to root path
+        then: nano .bashrc, go to the end and in conda initialize part 
+        and type
+
+        export  PATH="${HOME}/bin:${PATH}"
+
+        press control+O to saved , then enter and control+z to exit
+    
+        source .bashrc
+
+
+
+
+
+
 
     
 
