@@ -1,3 +1,13 @@
+# Week 4: Analytics Engineering
+
+# What is Analytics Engineering? and why is important in data science?
+
+Analytics Engineering is a discipline that combines data analysis skills, software engineering, and project management to create scalable, reliable, and efficient data pipelines that allow companies to extract valuable insights from their data.
+
+Analytics Engineering is important in data science because data is not useful if it cannot be collected, processed, and analyzed properly. Analytics engineers help create data infrastructure systems and automated workflows that enable companies to collect and process large amounts of data efficiently. Additionally, they also help create machine learning models and algorithms to analyze and visualize data, which enables companies to make informed, data-driven decisions.
+
+In summary, Analytics Engineering is critical to data science as it focuses on designing and building systems and processes for the collection, storage, processing, and analysis of data. This enables companies to make informed, data-driven decisions, which can improve efficiency, productivity, and overall business outcomes.
+
 # Question 1
 
 Files:
