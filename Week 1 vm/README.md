@@ -76,7 +76,8 @@ This file contains:
 3. User: The name of the user in the ssh keys
 4. IdentityFile: The path where is the gcp.pub file
     
-- Check that the file has been created correctly
+    
+Check that the file has been created correctly
 
 -Log in into anaconda with:
 
