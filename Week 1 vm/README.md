@@ -47,7 +47,7 @@ The create a new VM with ubuntu operative sistem and 30 gb of memory.
 
 In the VM instaces tab we can found our vm runnig, well we need to copy the external IP value to conect the vm with our local machine.
 
-- `ssh -i ~/.ssh/gcp arturo@ <external IP>`
+`ssh -i ~/.ssh/gcp arturo@ <external IP>`
 
 ## Step 4. Configure VM and set up local    
 
@@ -55,21 +55,19 @@ In the VM instaces tab we can found our vm runnig, well we need to copy the exte
 
  `wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh`
 
-- or the lasted version
-
-- `Install anaconda: https://www.anaconda.com/products/distribution`
+or the lasted version: https://www.anaconda.com/products/distribution
 
 - Then go to the anaconda bash:
 
-- `bash Anaconda3-2022.10-Linux-x86_64.sh`
+ `bash Anaconda3-2022.10-Linux-x86_64.sh`
 
 and accept all terms and conditions
 
 - Create the config file in .ssh dir:
 
-- `touch config`
+`touch config`
 
-- `code config`
+`code config`
 
 This file contains:
             
