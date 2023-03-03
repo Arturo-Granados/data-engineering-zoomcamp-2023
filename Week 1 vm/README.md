@@ -1,31 +1,36 @@
 # GCP VM SET UP
 
-May be this is one of the most important part of this course, because in the following weeks we will working with this vm, so is really 
-important this set up. 
+May be this is one of the most important part of this course, because in the following weeks we will working with this vm, so is really important this set up. 
+
+A VM instance in GCP (Google Cloud Platform) is a virtual machine that runs on Google's infrastructure. It is a fully isolated environment that can be configured and customized to meet specific needs, including CPU, memory, disk space, and network settings.
+
+In data engineering, VM instances are commonly used for running data processing and analysis pipelines. They provide a scalable and efficient way to process and store large amounts of data, with the ability to add or remove resources as needed. Additionally, VM instances in GCP can be easily integrated with other GCP services, such as BigQuery, Cloud Storage, and Dataflow, making it an ideal choice for data engineering workflows.
+
+Overall, VM instances in GCP are a critical component of data engineering, providing the necessary infrastructure and resources for building scalable and efficient data processing pipelines.
 
 ## Pre-Requisites
+- `--Have a GCP account`
+- `--Git in the local computer`
+- `--imageid string`
 
-    Have a GCP account 
-
-    Git in the local computer
-
-    Optional: If you are using windows, have windows subsystem for linux(WSL) will do some easier tasks.
-
-# Now that we have the prerequisites already we can continue with the set up procces
+Now that we have the prerequisites already we can continue with the set up procces
 
 ## Step 1. SSH key generation.
 
-    Create .ssh dir: mkdir .ssh
+Create .ssh dir: 
+- `mkdir .ssh` 
 
-    Change the directory to .ssh directory: cd .ssh
+Change the directory to .ssh directory: 
+cd .ssh
 
-    Genarate ssh key: ssh-keygen -t rsa -f <filename> -C <yourname> -b 2048
+Genarate ssh key: 
+ssh-keygen -t rsa -f <filename> -C <yourname> -b 2048
 
-    SSH keys generation: https://cloud.google.com/compute/docs/connect/create-ssh-keys?hl=es-419
+SSH keys generation: https://cloud.google.com/compute/docs/connect/create-ssh-keys?hl=es-419
 
-    acces to ssh key: cat gcp.pub
+acces to ssh key: cat gcp.pub
 
-    copy the ssh key value and add in metadata section in gcp compute engine
+copy the ssh key value and add in metadata section in gcp compute engine
 
 
 ## Step 2. Create a VM 
