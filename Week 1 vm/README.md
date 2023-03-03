@@ -17,18 +17,18 @@ Now that we have the prerequisites already we can continue with the set up procc
 ## Step 1. SSH key generation.
 
 Create .ssh dir: 
-- `mkdir .ssh` 
+ `mkdir .ssh` 
 
 Change the directory to .ssh directory: 
-- `cd .ssh`
+ `cd .ssh`
 
 Genarate ssh key: 
-- `ssh-keygen -t rsa -f <filename> -C <yourname> -b 2048`
+ `ssh-keygen -t rsa -f <filename> -C <yourname> -b 2048`
 
 SSH keys generation: https://cloud.google.com/compute/docs/connect/create-ssh-keys?hl=es-419
 
 acces to ssh key: 
-- `cat gcp.pub`
+ `cat gcp.pub`
 
 Copy the ssh key value and add in metadata section in gcp compute engine
 
