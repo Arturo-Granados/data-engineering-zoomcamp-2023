@@ -76,33 +76,37 @@ This file contains:
 3. User: The name of the user in the ssh keys
 4. IdentityFile: The path where is the gcp.pub file
     
-    Check that the file has been created correctly
+- Check that the file has been created correctly
 
-    Log in into anaconda with:
-        less .bashrc
+-Log in into anaconda with:
+
+`less .bashrc`
     
-    close the terminal and open a new terminal and put the following comand:
+close the terminal and open a new terminal and put the following comand:
 
-        ssh <vm name>
+`ssh <vm name>`
 
-    Install docker:
+-Install docker:
+
         sudo apt-get install docker.io
         sudo apt-get update
 
-    Connect vs code with the vm
+-Connect vs code with the vm
+
         intall the extention remote ssh
         clic in the ssh remote, select connect hosts 
         select the host, select the os and enter your ssh file password
 
-    Install docker:
+-Install docker:
+
         sudo apt-get install docker.io
 
-    note that if you try to run docker run hello-world, you will have problems 
+note that if you try to run docker run hello-world, you will have problems 
 
-    run docker command without sudo: https://github.com/sindresorhus/guides/blob/main/docker-without-sudo.md
+run docker command without sudo: https://github.com/sindresorhus/guides/blob/main/docker-without-sudo.md
     
 
-    Install docker compose
+Install docker compose
         create a new dir in the root path
             mkdir bin
         change to bin dir
