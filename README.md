@@ -1,6 +1,6 @@
 # Data-engineering-zoomcamp-2023
 
-Data Engineering Zoomcamp by DataTalk is an online course designed to teach the fundamentals of data engineering to beginners. The course covers topics such as data modeling, databases, data pipelines, and data warehousing, and is taught through a combination of lectures, hands-on exercises, and real-world examples.
+Data Engineering Zoomcamp by [DataTalks.Club's Slack](https://datatalks.club/slack.html) is an online course designed to teach the fundamentals of data engineering to beginners. The course covers topics such as data modeling, databases, data pipelines, and data warehousing, and is taught through a combination of lectures, hands-on exercises, and real-world examples.
 
 The course is divided into six weeks and is self-paced, allowing students to learn at their own pace. It also includes access to a community of learners and industry professionals, who can provide guidance and support throughout the course.
 
