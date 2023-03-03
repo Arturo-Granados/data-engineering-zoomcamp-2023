@@ -49,7 +49,7 @@ In the VM instaces tab we can found our vm runnig, well we need to copy the exte
 
 - Install anacoda navegator with the command:
 
-- 'wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh'
+- `wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh`
 
 - or the lasted version
 
