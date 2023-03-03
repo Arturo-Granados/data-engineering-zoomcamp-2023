@@ -109,19 +109,26 @@ run docker command without sudo: https://github.com/sindresorhus/guides/blob/mai
 
 Install docker compose
 
-        create a new dir in the root path
-            mkdir bin
-        change to bin dir
-            cd bin
-        download docker compose 
-            wget https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-linux-x86_64 -O docker-compose
-
-        or the lasted version: https://github.com/docker/compose
-
-        Execute docker-compose
-            chmod +x docker-compose
         
-    To do visible docker compose from every directory:
+create a new dir in the root path
+
+`mkdir bin`
+
+change to bin dir
+
+`cd bin`
+
+download docker compose 
+
+`wget https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-linux-x86_64 -O docker-compose`
+
+or the lasted version: https://github.com/docker/compose
+
+Execute docker-compose
+            
+`chmod +x docker-compose`
+        
+To do visible docker compose from every directory:
         go to root path
         then: nano .bashrc, go to the end and in conda initialize part 
         and type
