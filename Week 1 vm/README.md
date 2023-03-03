@@ -9,9 +9,8 @@ In data engineering, VM instances are commonly used for running data processing 
 Overall, VM instances in GCP are a critical component of data engineering, providing the necessary infrastructure and resources for building scalable and efficient data processing pipelines.
 
 ## Pre-Requisites
-- `--Have a GCP account`
-- `--Git in the local computer`
-- `--imageid string`
+- `Have a GCP account`
+- `Git in the local computer`
 
 Now that we have the prerequisites already we can continue with the set up procces
 
@@ -21,26 +20,30 @@ Create .ssh dir:
 - `mkdir .ssh` 
 
 Change the directory to .ssh directory: 
-cd .ssh
+- `cd .ssh`
 
 Genarate ssh key: 
-ssh-keygen -t rsa -f <filename> -C <yourname> -b 2048
+- `ssh-keygen -t rsa -f <filename> -C <yourname> -b 2048`
 
 SSH keys generation: https://cloud.google.com/compute/docs/connect/create-ssh-keys?hl=es-419
 
-acces to ssh key: cat gcp.pub
+acces to ssh key: 
+- `cat gcp.pub`
 
-copy the ssh key value and add in metadata section in gcp compute engine
+Copy the ssh key value and add in metadata section in gcp compute engine
 
 
 ## Step 2. Create a VM 
 
-    Go to GCP console, in the section compute engine/ VM instances, clic new instance. The create a new VM with ubuntu operative sistem and 30 gb of memory.
+Go to GCP console, in the section compute engine/ VM instances, clic new instance. 
+
+The create a new VM with ubuntu operative sistem and 30 gb of memory.
 
 ## Step 3. Conection with local machine
-    In the VM instaces tab we can found our vm runnig, well we need to copy the external IP value to conect the vm with our local machine.
 
-    ssh -i ~/.ssh/gcp arturo@<external IP>
+In the VM instaces tab we can found our vm runnig, well we need to copy the external IP value to conect the vm with our local machine.
+
+- 'ssh -i ~/.ssh/gcp arturo@<external IP>'
 
 ## Step 4. Configure VM and set up local    
 
