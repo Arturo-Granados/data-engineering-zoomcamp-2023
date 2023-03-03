@@ -49,30 +49,30 @@ In the VM instaces tab we can found our vm runnig, well we need to copy the exte
 
 - Install anacoda navegator with the command:
 
-'wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh'
+- 'wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh'
 
 - or the lasted version
 
-'Install anaconda: https://www.anaconda.com/products/distribution'
+- 'Install anaconda: https://www.anaconda.com/products/distribution'
 
 - Then go to the anaconda bash:
 
-    bash Anaconda3-2022.10-Linux-x86_64.sh
+- 'bash Anaconda3-2022.10-Linux-x86_64.sh'
 
-    and accept all terms and conditions
+and accept all terms and conditions
 
-    Create the config file in .ssh dir:
+- Create the config file in .ssh dir:
 
-        touch config
+- 'touch config'
 
-        code config
+- 'code config'
 
-        this file contains:
+This file contains:
             
-            1. HOST: the name of the vm 
-            2. HostName: external IP (this ip chages every time that the vm is restarted)
-            3. User: The name of the user in the ssh keys
-            4. IdentityFile: The path where is the gcp.pub file
+1. HOST: the name of the vm 
+2. HostName: external IP (this ip chages every time that the vm is restarted)
+3. User: The name of the user in the ssh keys
+4. IdentityFile: The path where is the gcp.pub file
     
     Check that the file has been created correctly
 
