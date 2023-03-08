@@ -12,6 +12,7 @@ Overall, VM instances in GCP are a critical component of data engineering, provi
 - `Have a GCP account`
 - `Git in the local computer`
 
+
 Now that we have the prerequisites already we can continue with the set up procces
 
 ## Step 1. SSH key generation.
